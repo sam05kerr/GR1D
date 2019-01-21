@@ -95,6 +95,8 @@ def Calc():
     print("Choose your operation by typing the number before the opperation.")
     
 def SleepCalc():
+    global firstname
+    global lastname
     
     print("Sleep Calculator")
     print("                     ")
@@ -103,13 +105,13 @@ def SleepCalc():
     hourspernight = int(input())
 
     if hourspernight <= 8:
-        print("Less than 8 hours of sleep per night this can increase stress levels.")
+        print(firstname, lastname"," you sleep for less than 8 hours of sleep per night! This can increase stress levels.")
     else:
-        ("You sleep an approprate amount per night")
+        (firstname ",you sleep an approprate amount per night")
     
     hoursperweek = hourspernight * 7
     
-    print("You sleep",hoursperweek,"hours every week")
+    print(firstname "you sleep",hoursperweek,"hours every week")
     print(" ")
     
     hourspermonth = hoursperweek * 4.35
