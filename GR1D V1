@@ -95,7 +95,7 @@ def Calc():
     print("********************")
     print("Choose your operation by typing the number before the opperation.")
     
-    def 
+    def SleepCalc():
     
     
     
