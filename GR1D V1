@@ -127,7 +127,80 @@ def SleepCalc():
 
 # end of sleep calc
 
+def turtle 1():
+    from turtle import TurtleScreen, RawTurtle, TK
     
+    root = TK.Tk()
+    canvas = TK.Canvas(root, width=500, height=500)
+    canvas.pack()
+    wn = TurtleScreen(canvas)
+    root.wm_title("Harry's Drawing Pad")
+    wn.bgcolor("orange") # Sets background colour to orange
+    turtle = RawTurtle(wn) # Defines the turtle
+    turtle.speed(0)
+
+    def up():
+        turtle.setheading(90)
+
+    def down():
+        turtle.setheading(270)
+
+    def left():
+        turtle.setheading(180)
+
+    def right():
+        turtle.setheading(0)
+
+    def forward():
+        turtle.forward(10)
+
+    def square():
+        for i in range(4):
+            turtle.forward(100)
+            turtle.left(90)
+
+    def triangle():
+        for i in range(3):
+            turtle.forward(100)
+            turtle.left(120)
+
+    def circle():
+        for i in range(36):
+            turtle.forward(20)
+            turtle.left(10)
+
+    def clear():
+        turtle.clear()
+
+    but1=TK.Button(text="UP", command=up)
+    but1.pack(side="top")
+
+    but2=TK.Button(text="DOWN", command=down)
+    but2.pack(side="bottom")
+
+    but3=TK.Button(text="LEFT", command=left)
+    but3.pack(side="left")
+
+    but4=TK.Button(text="RIGHT", command=right)
+    but4.pack(side="right")
+
+    but5=TK.Button(text="FORWARD", command=forward)
+    but5.pack(side="top")
+
+    but5=TK.Button(text="SQUARE", command=square)
+    but5.pack(side="top")
+
+    but6=TK.Button(text="TRIANGLE", command=triangle)
+    but6.pack(side="top")
+
+    but7=TK.Button(text="CIRCLE", command=circle)
+    but7.pack(side="top")
+
+    but7=TK.Button(text="CLEAR", command=clear)
+    but7.pack(side="top")
+
+
+    TK.mainloop()
 
     
 #Your name
