@@ -29,7 +29,6 @@ print (firstname,", What is your middle name")
 middlename = input()
 print ("Hello,", firstname,"," middlename)
 
-    print("* 3.Mulitiplication*")
 #lastname, asks for lastmane and inputs it to a variable#firstname, asks for fistname and inputs it to a variable
 print("Hello, what is your firstname?")
 firstname = input()
