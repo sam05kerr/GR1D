@@ -105,7 +105,7 @@ def SleepCalc():
     if hourspernight <= 8:
         print("Less than 8 hours of sleep per night this can increase stress levels.")
     else:
-    ("You sleep an approprate amount per night")
+        ("You sleep an approprate amount per night")
     
     hoursperweek = hourspernight * 7
     
