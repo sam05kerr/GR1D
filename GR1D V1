@@ -18,7 +18,7 @@ def factfilefun():
     #declaring the fullname variable
     fullname = firstname + " " + lastname
 
-    print("* 3.Mulitiplication*")
+   
 #firstname, asks for fistname and inputs it to a variable
 print("Hello, what is your firstname?")
 firstname = input()
