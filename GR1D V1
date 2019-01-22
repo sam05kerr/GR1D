@@ -5,6 +5,10 @@ def mainmenu():
     print ("2. Calculator")
     print ("3. Turtle Drawing")
     print ("4. Sleep Calculator")
+    print ("Please input the function you would like")
+    choice = input()
+
+ 
     
 
 def factfilefun():
