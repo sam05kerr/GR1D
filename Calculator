@@ -8,10 +8,10 @@ print("     ********************")
 print("Choose your operation by typing the number before the opperation.")
 user_input = str(input())
 
-if user_input == "5":
+if user_input == "6" or "Quit":
         print ("quit") 
 
-elif user_input == "1":
+elif user_input == "1" or "Addition":
         print ("Enter a number")
         numb_1 = float(input())
         print ("Enter another number")
@@ -19,7 +19,7 @@ elif user_input == "1":
         print (numb_1 ,"+", numb_2 ,"=")
         print (numb_1 + numb_2)
 
-elif user_input == "2":
+elif user_input == "2" or "Subtraction":
         print ("Enter a number")
         number_1 = float(input())
         print ("Enter another number")
@@ -27,7 +27,7 @@ elif user_input == "2":
         print (number_1 ,"-", number_2 ,"=")
         print (number_1 - number_2)
                        
-elif user_input == "3":
+elif user_input == "3" or "Multiplication":
         print ("Enter a number")
         numbe_1 = float(input())
         print ("Enter another number")
