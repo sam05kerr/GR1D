@@ -35,7 +35,7 @@ elif user_input == "3" or "Multiplication":
         print (numbe_1 ,"x", numbe_2 ,"=")
         print (numbe_1 * numbe_2)
 
-elif user_input == "4":
+elif user_input == "4" or "Division":
         print ("Enter a number")
         num_1 = float(input())
         print ("Enter another number")
