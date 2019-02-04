@@ -1,0 +1,24 @@
+print("Sleep Calculator")
+print("                     ")
+print(firstname, "many hours do you sleep per night?")
+
+hourspernight = int(input())
+
+print("Less than 8 hours of sleep per night this can increase stress levels.")
+
+hoursperweek = hourspernight * 7
+
+print("You sleep",hoursperweek,"hours every week")
+print(" ")
+
+hourspermonth = hoursperweek * 4.35
+
+print("You sleep",hourspermonth,"hours every month")
+print(" ")
+
+hoursperyear = hourspernight * 365
+
+print ("You sleep",hoursperyear,"hours per year")
+print(" ")
+
+
