@@ -1,0 +1,30 @@
+#Your name
+
+#firstname, asks for fistname and inputs it to a variable
+print("Hello, what is your firstname?")
+firstname = input()
+
+#middlename, asks for middlename and inputs it to a variable
+print ("Hello,", firstname)
+print (firstname,", What is your middle name")
+middlename = input()
+print ("Hello,", firstname,"," middlename)
+
+#lastname, asks for lastnane and inputs it to a variable
+print ("Hello,", firstname)
+print (firstname,", what is your last name")
+lastname = input()
+print ("Hello,", firstname, lastname)
+
+#age, asks for age and inputs it to a variable
+print (firstname, lastname,"what is your age")
+age = input()
+print ("So,", firstname, lastname,"you are,", age)
+runfactfile = input ("Create your factfile? (y/n)")
+if runfactfile == "y":
+    factfilefun()
+    Gr1d()
+else:
+    Gr1d()
+    
+username = (lastname[0:4] + firstname[0:2] + str(len(lastname)))
