@@ -1,1 +1,9 @@
-this is the main menu
+def mainmenu():
+    print ("Welcome to the GR1D menu")
+    print ("Please select the number of the function you would like to acess")
+    print ("1. Personal Factfile")
+    print ("2. Calculator")
+    print ("3. Turtle Drawing")
+    print ("4. Sleep Calculator")
+    print ("Please input the function you would like")
+    choice = input()
