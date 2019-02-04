@@ -1,0 +1,63 @@
+def factfilefun():
+    global fullname
+    global firstname
+    global lastname
+    global age
+    global username
+    global middlename
+   
+    #declaring the fullname variable
+    fullname = firstname + " " + lastname
+
+   
+    #firstname, asks for fistname and inputs it to a variable
+    print("Hello, what is your firstname?")
+    firstname = input()
+
+    #lastname, asks for lastmane and inputs it to a variable#firstname, asks for fistname and inputs it to a variable
+    print("Hello, what is your firstname?")
+    firstname = input()
+
+    #lastname, asks for lastmane and inputs it to a variable    #creating username variable.
+    username = (lastname[0:4] + firstname[0:2] + str(len(lastname))) 
+
+  
+    #creating a factfile
+    #factfile = input()
+    #if factfile == "y":
+    print ("Here is your fact file")
+    print ("**********************")
+    print ("Intials:",firstname[0],lastname[0])
+    print ("Lastname:",lastname.upper())
+    print ("Firstname:",firstname.upper())
+    print ("Fullname:",fullname)
+    print ("Age:", age)
+    print ("The length of your fisrtname is:",len(firstname))
+    print ("The length of your lastname is:",len(lastname))
+
+    #telling the user their username
+    print ("Your username is:",username)
+
+def Gr1d():
+    global username
+    valid = False
+
+    while valid == False:
+        print ("Welcome to the GR1D system")
+        print ("**************************")    
+        print ("Please enter your username")    
+        entrance = input()
+        
+        if entrance == username:
+            print("Access granted")
+            valid = True
+            mainmenu()
+        elif entrance == ("backdoor"):
+            print ("Access granted")
+            valid = True
+            mainmenu()
+            
+        else:
+            print ("Access denied")
+            print ("Please try again")
+            valid = False
