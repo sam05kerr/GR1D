@@ -1,0 +1,52 @@
+import turtle
+
+wn = turtle.Screen()
+wn.bgcolor("orange")
+
+bob = turtle.Turtle()
+bob.speed(0)
+
+
+
+def polygon():
+    for i in range(sides):
+            bob.forward(size)
+            bob.left(360/sides)
+
+
+def spyrograph():
+    for i in range(48):
+            bob.forward(size)
+            bob.left(360/sides-1)
+
+
+print ("Welcome to GR1D's Self Running Drawing Service")
+print ("           ")
+print ("Enter the shape for which you would like us to draw")
+print ("Spyrograph - 1")
+print ("Polygon - 2")
+print ("                    ")
+
+choicefordrawing = input()
+
+if choicefordrawing == "Spyrograph" or "1" or "spyrograph":
+    sides = int(input("How many sides would you like?            "))
+    print("                ")
+    size = int(input("What size of Spyrograph           "))
+    print("                ")
+    print("We are going to start the process now")
+    print("**************")
+    spyrograph()
+
+if choicefordrawing == "Polygon" or "2" or "syprograph:
+    sides = int(input("How many sides would you like?           "))
+    print("            ")
+    size = int(input("What size of Polygon            "))
+    print("              ")
+    print("We are going to start the process now")
+    print("**************")
+    polygon()
+   
+else:
+    print("                                                    ")
+    print("Your choice is not a current function availiable please restart the process")
