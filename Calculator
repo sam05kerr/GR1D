@@ -8,35 +8,39 @@ print("     ********************")
 print("Choose your operation by typing the number before the opperation.")
 user_input = str(input())
 
-if user_input == ("quit"):
-        print ("please leave") 
+if user_input == "5":
+        print ("quit") 
 
-elif user_input == ("add"):
+elif user_input == "1":
         print ("Enter a number")
-        numb_1 = int(input())
+        numb_1 = float(input())
         print ("Enter another number")
-        numb_2 = int(input())
+        numb_2 = float(input())
+        print (numb_1 ,"+", numb_2 ,"=")
         print (numb_1 + numb_2)
 
-elif user_input == ("subtract"):
+elif user_input == "2":
         print ("Enter a number")
-        number_1 = int(input())
+        number_1 = float(input())
         print ("Enter another number")
-        number_2 = int(input())
+        number_2 = float(input())
+        print (number_1 ,"-", number_2 ,"=")
         print (number_1 - number_2)
                        
-elif user_input == ("multiply"):
+elif user_input == "3":
         print ("Enter a number")
-        numbe_1 = int(input())
+        numbe_1 = float(input())
         print ("Enter another number")
-        numbe_2 = int(input())
+        numbe_2 = float(input())
+        print (numbe_1 ,"x", numbe_2 ,"=")
         print (numbe_1 * numbe_2)
 
-elif user_input == ("divide"):
+elif user_input == "4":
         print ("Enter a number")
-        num_1 = int(input())
+        num_1 = float(input())
         print ("Enter another number")
-        num_2 = int(input())
+        num_2 = float(input())
+        print (num_1 ,"%", num_2 ,"=")
         print (num_1 / num_2)
 else:
         print("Unknown input")
