@@ -9,7 +9,7 @@ print("     ********************")
 print("Choose your operation by typing the number before the opperation.")
 user_input = str(input())
 
-if user_input == "6" or "Quit":
+if user_input == "6" or "Exit":
         print ("quit") 
 
 elif user_input == "1" or "Addition":
