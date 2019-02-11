@@ -42,5 +42,14 @@ elif user_input == "4" or "Division":
         num_2 = float(input())
         print (num_1 ,"%", num_2 ,"=")
         print (num_1 / num_2)
+
+elif user_imput == "5" or "Powers":
+        print("Enter the number you would like to power")
+        no_1 = float(imput())
+        print("Enter the power")
+        no_2 = float(imput())
+        print(no_1, "to the power of" no_2,"=")
+        print(no_1 ** no_2)
+
 else:
         print("Unknown input")
